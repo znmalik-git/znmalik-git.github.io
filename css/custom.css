@@ -1,6 +1,27 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-image: url('../images/pattern.png');
+    background-color: bg-;
     background-repeat: repeat;
   }
+
+.bg-primary {
+    background-color: #194383 !important;
+}
+
+.bg-secondary {
+    background-color: #50c6f5 !important;
+}
+
+.hero-section {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
+  height: 40vh;
+}
+
+.hero-index {
+  background-image: url('../images/carousel1.jpg');
+}
