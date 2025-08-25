@@ -1,7 +1,8 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: bg-;
+    background-color: bg-light;
+    /*background-image: url('../images/pattern.png');*/
     background-repeat: repeat;
   }
 
