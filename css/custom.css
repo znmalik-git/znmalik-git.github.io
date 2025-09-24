@@ -26,3 +26,10 @@ body {
 .hero-index {
   background-image: url('../images/carousel3.jpg');
 }
+
+.bi {
+  display: inline-block;
+  border: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+}
