@@ -77,16 +77,27 @@
 
                     <div class="col-sm-6 col-lg-4">
                         <h3 class="text-capitalize my-3">About this case study</h3>
-                        <p class="lead">Under construction</p>
-                        <p> <strong></strong>
+                        <p class="lead">The original Trade & Risk Management system was an in-house system developed over 15 years ago.</p>
+                        <p>It was built to niche business requiremenst which were not met by ETRM solutions of the time. 
+                            The in-house application was developed with modern technology stack of 15 years ago. The server was developed 
+                            in Java, client in .Net, RESTful APIs, messaging was used for integration. The application served the business 
+                            well for many years & the business had seen steady growth & the application had managed to support it with 
+                            constant tactical upgrades including the migration to the cloud, which had given a bit of head room 
+                            to meet its Non-Functional requirements.
+                            <strong>However, a fundamental step change in the architecture was required to allow business growth, 
+                                application resilency to failures & agility. A new reactive event-driven solution based on reactive 
+                                microservices & Function-as-a-Service architecture style utilizing parrtern such as CQRS (Command Query Responsibility Segregation)
+                                & Event Sourcing that addresses these challenges & future proof the platform for next 10-15 years.</strong>
                             </p>
                         <h3>Technologies</h3>
                         <ul>
-                            <li>.Net, Angular, Typescript</li>
-                            <li>Active MQ as messaging platform</li>
+                            <li>Reactive Microservice: Lagom, Akka, Java</li>
+                            <li>Quarks Microservice: Java</li>
+                            <li>Kafka Strimzi for data stream</li>
+                            <li>Flink as streaming engine</li>
                             <li>Redis for caching</li>
-                            <li>MS SQL Server</li>
-                            <li>Zeebee .Net microservice workflow platform</li>
+                            <li>Postgres</li>
+                            <li>AWS</li>
                         </ul>
 
 
@@ -95,7 +106,10 @@
 
                 <div class="p-4 mb-3 mt-2 bg-light rounded border border-primary">
                     <h4>Outcome & Impact</h4>
-                    <p class="mb-0 font-italic">...</p>
+                    <p class="mb-0 font-italic">The application & technology stack provided infinite scalability, resiliency
+                        graceful degradation in the event of failure & near real time processing of trades as they flow through their lifecycle,
+                        high performance & replayability of events. These technologies containerized on AWS provided built-in fault tolerance & flexible scalability. 
+                    </p>
                     </p>
                 </div>
 
@@ -120,6 +134,7 @@
             </a>
         </div>
         <p>&copy; 2025 Zeeshan Nicolas Malik</p>
+        <p> All rights reserved.</p>
     </footer>
 </body>
 </html>
