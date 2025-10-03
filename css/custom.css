@@ -33,3 +33,13 @@ body {
   outline: none !important;
   text-decoration: none !important;
 }
+
+/* Favicon styles */
+.favicon {
+  width: 64px;
+  height: 64px;
+  background-color: #194383;
+  display: inline-block;
+  mask: url('../images/favicon.svg') no-repeat center;
+  -webkit-mask: url('../images/favicon.svg') no-repeat center;
+}
