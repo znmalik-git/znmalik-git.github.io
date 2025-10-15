@@ -23,6 +23,13 @@ body {
   height: 40vh;
 }
 
+/* Fix for iOS Safari and mobile browsers */
+@media (max-width: 800px) {
+  .hero-section {
+    background-attachment: scroll;
+  }
+}
+
 .hero-index {
   background-image: url('../images/carousel3.jpg');
 }
