@@ -30,7 +30,7 @@ body {
   }
 }
 
-.hero-index {
+.hero-section.hero-index {
   background-image: url('../images/carousel3.jpg');
 }
 
