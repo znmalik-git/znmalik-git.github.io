@@ -13,16 +13,16 @@ body {
 .bg-secondary {
     background-color: #50c6f5 !important;
 }
-/* Hero section styles 
+
 .hero-section {
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
   box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
   height: 40vh;
 }
-*/
+
 /* Fix for iOS Safari and mobile browsers */
 @media (max-width: 800px) {
   .hero-section {
